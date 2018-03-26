@@ -1,0 +1,44 @@
+title: 奉納＼危険生物・弁護士脳汚染除去装置＼金沢地方検察庁御中
+email: hirono2013k@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ 弁護士と裁判官が共同で確定させた傷害・準強姦被告事件判決の再捜査要請に係る石川県警察珠洲警察署提出書面の関連資料の情報公開
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hirono_hideki
+github_username: hirono2016kk
+
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+googleplus_username: hirono2013k@gmail.com
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d_%H:%M"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock

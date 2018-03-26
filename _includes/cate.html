@@ -1,0 +1,14 @@
+<div>
+{% for category in site.categories %}
+  <h4>{{ category[0] }}</h4>
+  <ul>
+  {% for posts in category %}
+    {% for post in posts %}
+      {% if post.title != nil %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+    <div>
+    {% for category in site.categories %}
+      <h4>{{ category[0] }}</h4>
+      <ul>
+      {% for posts in category %}
+        {% for post in posts %}
+          {% if post.title != nil %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    {% endfor %}
+    </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
