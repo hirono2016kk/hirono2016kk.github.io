@@ -13,6 +13,10 @@ permalink: /tags
 -->
 {% endcomment %}
 
+<hr />
+
+<div style="margin: 3px;">
+
 {% assign tag_names = "" | split: "|"  %}
 
 {% for posts_by_tag in site.tags %}
@@ -23,19 +27,22 @@ permalink: /tags
 
 {% include tag_cloud.html tag_names=tag_names %}
 
+</div>
 <hr>
-
+<br />
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
     <div>
-      <h3 id="{{ tag_name }}">
+      <h4 style="color: #585858; margin: 1px 3px 0px 2px;">
         {{ tag_name | capitalize | replace: "_", " " }}
-      </h3>
+      </h4>
 
       {% for post in site.tags[tag_name] %}
+      <span style="color: #585858; margin: 6px 3px 4px 23px; padding-reght: 30px; font-size: 11pt;">
         <a href="{{ post.url | prepend: baseurl }}">
           {{ post.title }}
         </a>
+      </span>
       {% endfor %}
     </div>
   {% endfor %}
