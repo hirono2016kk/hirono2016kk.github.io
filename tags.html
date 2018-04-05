@@ -2,6 +2,7 @@
 layout: page
 title: Posts By Tags
 permalink: /tags
+xxx: 鴨志田裕美
 ---
 
 {% comment %}
@@ -33,7 +34,7 @@ permalink: /tags
 <section class="posts-by-tags">
   {% for tag_name in tag_names %}
     <div>
-      <h4 style="color: #585858; margin: 1px 3px 0px 2px;">
+      <h4 id="{{ tag_name | uri_escape }}" style="color: #585858; margin: 1px 3px 0px 2px;">
         {{ tag_name | capitalize | replace: "_", " " }}
       </h4>
 
@@ -47,3 +48,4 @@ permalink: /tags
     </div>
   {% endfor %}
 </section>
+
