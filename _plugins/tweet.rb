@@ -1,6 +1,6 @@
 # Tweet Liquid Tag
 #
-# Example: 
+# Example:
 #   {% tweet 464180168303456256 %}
 #
 
@@ -14,10 +14,16 @@ module Jekyll
     #
     #
     def render(context)
-      
+
       if tag_contents = determine_arguments(@markup.strip)
         tweet_id = tag_contents #
-        tweet_script_tag(tweet_id)
+        chk =  tweet_script_tag(tweet_id)
+        if chk.nil? then
+          "<span style='color: red;'>error データの取得に失敗しました。このツイートは存在しない可能性があります。</span>"
+        else
+          chk
+        end
+
       else
         raise ArgumentError.new <<-eos
            Syntax error
@@ -29,7 +35,7 @@ module Jekyll
    private
 
    #
-   # 
+   #
    #
    def determine_arguments(input)
 
@@ -47,7 +53,7 @@ module Jekyll
       hash   =  json.parse()
       parsed = hash['html']
 
-      return parsed     
+      return parsed
 
    end
 
