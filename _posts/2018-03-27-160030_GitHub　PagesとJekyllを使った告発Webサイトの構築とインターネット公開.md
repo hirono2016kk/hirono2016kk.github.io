@@ -53,7 +53,7 @@ Markdown (or Textile), Liquid, HTML & CS Jekyll template guide →
 
 　パッケージのバージョンもそれぞれ細かいので、ネットで参考にする情報が古ければ、まったく使い物にならないことが普通にあります。
 
-[link:]  Dependency versions | GitHub Pages https://pages.github.com/versions/
+<span style="color: #01DFA5; font-size: 12px;">Dependency versions | GitHub Pages https://pages.github.com/versions/</span>
 
 　最終的な解決方法は他にあったので、どこまで効果的だったのかわかりませんが、上記のホームページには、GitHub　Pagesで使われるパッケージのバージョンが一覧で書いてあります。Rubyのバージョンは2.4.2となっています。
 
@@ -67,7 +67,7 @@ Markdown (or Textile), Liquid, HTML & CS Jekyll template guide →
 
 　ここまで書いた時点で、GitHubへのPushを行いたいと思います。
 
-[link:]  奉納＼危険生物・弁護士脳汚染除去装置＼金沢地方検察庁御中 | 弁護士と裁判官が共同で確定させた傷害・準強姦被告事件判決の再捜査要請に係る石川県警察珠洲警察署提出書面の関連資料の情報公開 https://hirono2016kk.github.io/
+<span style="color: #01DFA5; font-size: 12px;">奉納＼危険生物・弁護士脳汚染除去装置＼金沢地方検察庁御中 | 弁護士と裁判官が共同で確定させた傷害・準強姦被告事件判決の再捜査要請に係る石川県警察珠洲警察署提出書面の関連資料の情報公開 https://hirono2016kk.github.io/</span>
 
 　トップページのページのタイトルを取得して気がついたのですが、サイトのタイトル名に、サブタイトルのような情報が付加されていました。
 
