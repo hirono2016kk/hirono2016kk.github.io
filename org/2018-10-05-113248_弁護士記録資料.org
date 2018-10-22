@@ -362,7 +362,7 @@ Cron <a66@a66-Diginnos-PC> cd;time ./api-blogger.py 33 > bl.txt; insert-blogger_
 
 *** upされました～　→歪んだ正義感はなぜ生まれたのか…弁護士への大量懲戒請求にみる“カルト性”（ツイート）
     :LOGBOOK:
-    CLOCK: [2018-10-07 日 12:08]
+    CLOCK: [2018-10-07 日 12:08]--[2018-10-08 月 16:19] => 28:11
     :END:
 
 [link:]  "大量懲戒" from:amneris84 - Twitter検索 https://twitter.com/search?l=&q=%22%E5%A4%A7%E9%87%8F%E6%87%B2%E6%88%92%22%20from%3Aamneris84&src=typd
