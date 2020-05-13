@@ -69,3 +69,11 @@
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+.post pre.ruby, .post pre.ruby code {
+  background-color: #fff000; //#ffe
+}
+
+.post pre.bash, .post pre.bash code {
+  background-color: #eee; //#cfc
+}
